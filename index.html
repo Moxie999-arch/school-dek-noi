@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Dek Noi - สอนออกเสียง</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="home-container">
+        <div class="castle-background">
+            <svg viewBox="0 0 300 250" class="castle">
+                <!-- Castle -->
+                <rect x="50" y="120" width="200" height="100" fill="#FFB6D9"/>
+                <polygon points="50,120 35,90 65,90" fill="#E88DC4"/>
+                <polygon points="145,120 130,60 160,60" fill="#D99FE8"/>
+                <polygon points="250,120 235,90 265,90" fill="#E88DC4"/>
+                <rect x="75" y="100" width="30" height="40" fill="#D99FE8"/>
+                <rect x="195" y="100" width="30" height="40" fill="#D99FE8"/>
+                <circle cx="90" cy="100" r="8" fill="#9370DB"/>
+                <circle cx="210" cy="100" r="8" fill="#9370DB"/>
+                
+                <!-- Door -->
+                <rect x="135" y="150" width="30" height="50" fill="#9370DB"/>
+                <circle cx="162" cy="175" r="3" fill="#FFD700"/>
+                
+                <!-- Windows -->
+                <rect x="70" y="135" width="15" height="15" fill="#9370DB"/>
+                <rect x="95" y="135" width="15" height="15" fill="#9370DB"/>
+                <rect x="190" y="135" width="15" height="15" fill="#9370DB"/>
+                <rect x="215" y="135" width="15" height="15" fill="#9370DB"/>
+                
+                <!-- Flag -->
+                <rect x="144" y="55" width="2" height="10" fill="#333"/>
+                <polygon points="146,55 146,65 155,60" fill="#FF1493"/>
+                
+                <!-- Clouds -->
+                <ellipse cx="40" cy="50" rx="25" ry="15" fill="#FFFFFF" opacity="0.8"/>
+                <ellipse cx="260" cy="60" rx="30" ry="18" fill="#FFFFFF" opacity="0.8"/>
+                
+                <!-- Sun -->
+                <circle cx="280" cy="35" r="15" fill="#FFD700"/>
+                <line x1="280" y1="10" x2="280" y2="0" stroke="#FFD700" stroke-width="3"/>
+                <line x1="280" y1="60" x2="280" y2="70" stroke="#FFD700" stroke-width="3"/>
+                <line x1="305" y1="35" x2="315" y2="35" stroke="#FFD700" stroke-width="3"/>
+                <line x1="255" y1="35" x2="245" y1="35" stroke="#FFD700" stroke-width="3"/>
+            </svg>
+            
+            <!-- Hot Air Balloon -->
+            <svg class="balloon" viewBox="0 0 100 120">
+                <circle cx="50" cy="30" r="25" fill="#FFB6D9" stroke="#E88DC4" stroke-width="2"/>
+                <line x1="25" y1="55" x2="25" y2="90" stroke="#333" stroke-width="1"/>
+                <line x1="50" y1="55" x2="50" y2="90" stroke="#333" stroke-width="1"/>
+                <line x1="75" y1="55" x2="75" y2="90" stroke="#333" stroke-width="1"/>
+                <rect x="35" y="90" width="30" height="20" fill="#D4A574"/>
+            </svg>
+        </div>
+        
+        <div class="home-content">
+            <h1 class="title">School Dek Noi</h1>
+            <p class="subtitle">สอนออกเสียง สำหรับเด็ก 3+</p>
+            
+            <button class="play-button" onclick="goToLanguageSelect()">
+                PLAY
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
